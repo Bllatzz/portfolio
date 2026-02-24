@@ -17,7 +17,6 @@ export function Hero() {
       id="home"
       className="relative min-h-screen flex items-center justify-center overflow-hidden"
     >
-      {/* Animated Background */}
       <div className="absolute inset-0 bg-gradient-to-br from-dark-500 via-dark-400 to-dark-500">
         <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-accent-cyan/5 via-transparent to-transparent" />
         <motion.div
@@ -46,7 +45,6 @@ export function Hero() {
         />
       </div>
 
-      {/* Grid Pattern */}
       <div 
         className="absolute inset-0 opacity-[0.02]"
         style={{
@@ -58,7 +56,6 @@ export function Hero() {
 
       <div className="container mx-auto px-6 relative z-10">
         <div className="flex flex-col lg:flex-row items-center justify-between gap-12 lg:gap-20">
-          {/* Text Content */}
           <motion.div
             className="flex-1 text-center lg:text-left max-w-2xl"
             initial={{ opacity: 0 }}
@@ -126,14 +123,13 @@ export function Hero() {
               <div className="absolute inset-0 bg-white opacity-0 group-hover:opacity-20 transition-opacity" />
             </motion.button>
 
-            {/* Tech Stack Pills */}
             <motion.div
               className="flex flex-wrap justify-center lg:justify-start gap-3 mt-12"
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
               transition={{ delay: 0.8 }}
             >
-              {['Laravel', 'PHP', 'Python', 'React', 'TypeScript', 'AWS', 'MySQL','GoLang','Vue.js','Redis'].map((tech, index) => (
+              {['Laravel', 'PHP', 'Python', 'React', 'TypeScript', 'AWS', 'MySQL','GoLang','Vue.js','Redis','Azure'].map((tech, index) => (
                 <motion.span
                   key={tech}
                   className="px-4 py-2 text-sm font-mono text-gray-400 bg-dark-200/50 rounded-full border border-white/5 hover:border-accent-cyan/30 hover:text-accent-cyan transition-all duration-300"
@@ -148,7 +144,6 @@ export function Hero() {
             </motion.div>
           </motion.div>
 
-          {/* Profile Image */}
           <motion.div
             className="flex-shrink-0"
             initial={{ opacity: 0, scale: 0.8 }}
@@ -180,7 +175,6 @@ export function Hero() {
         </div>
       </div>
 
-      {/* Scroll Indicator */}
       <motion.div
         className="absolute bottom-8 left-1/2 -translate-x-1/2"
         initial={{ opacity: 0 }}

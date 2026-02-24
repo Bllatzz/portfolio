@@ -25,7 +25,6 @@ export function Projects() {
       id="projects"
       className="relative min-h-screen py-20 md:py-32 overflow-hidden"
     >
-      {/* Background */}
       <div className="absolute inset-0 bg-gradient-to-b from-dark-500 via-dark-400 to-dark-500" />
       <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_bottom,_var(--tw-gradient-stops))] from-accent-purple/5 via-transparent to-transparent" />
 
@@ -42,9 +41,7 @@ export function Projects() {
           </span>
         </motion.h2>
 
-        {/* Cards Carousel */}
         <div className="relative flex items-center justify-center min-h-[500px] md:min-h-[600px]">
-          {/* Navigation Buttons */}
           <motion.button
             onClick={prevProject}
             className="absolute left-4 md:left-10 z-20 w-12 h-12 md:w-14 md:h-14 rounded-full bg-dark-200/80 backdrop-blur-sm border border-white/10 flex items-center justify-center text-white hover:border-accent-cyan/50 hover:text-accent-cyan transition-all duration-300"
@@ -67,7 +64,6 @@ export function Projects() {
             </svg>
           </motion.button>
 
-          {/* Cards */}
           <div className="relative w-full max-w-4xl h-[400px] md:h-[500px] perspective-1000">
             <AnimatePresence mode="popLayout">
               {[-1, 0, 1].map((offset) => {
@@ -162,7 +158,6 @@ export function Projects() {
           </div>
         </div>
 
-        {/* Dots Indicator */}
         <div className="flex justify-center gap-3 mt-12">
           {projects.map((_, index) => (
             <button

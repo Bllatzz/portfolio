@@ -9,7 +9,6 @@ export function Courses() {
       id="courses"
       className="relative min-h-screen py-20 md:py-32 overflow-hidden"
     >
-      {/* Background */}
       <div className="absolute inset-0 bg-gradient-to-b from-dark-500 via-dark-300 to-dark-500" />
       <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top_right,_var(--tw-gradient-stops))] from-accent-cyan/5 via-transparent to-transparent" />
 
@@ -56,7 +55,6 @@ export function Courses() {
                   </a>
                 </div>
 
-                {/* Progress Bar */}
                 <div className="relative">
                   <div className="flex justify-between items-center mb-2">
                     <span className="text-sm text-gray-400">Progresso</span>

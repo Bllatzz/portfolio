@@ -62,7 +62,6 @@ export function Contact() {
       id="contact"
       className="relative min-h-screen py-20 md:py-32 flex items-center justify-center overflow-hidden"
     >
-      {/* Background */}
       <div className="absolute inset-0 bg-gradient-to-t from-dark-500 via-dark-400 to-dark-500" />
       <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-accent-cyan/5 via-transparent to-transparent" />
 
@@ -89,7 +88,6 @@ export function Contact() {
           {t.contact.subtitle}
         </motion.p>
 
-        {/* Social Links */}
         <motion.div
           className="flex flex-wrap justify-center gap-6"
           initial={{ opacity: 0, y: 20 }}
@@ -119,7 +117,6 @@ export function Contact() {
           ))}
         </motion.div>
 
-        {/* Decorative Element */}
         <motion.div
           className="mt-20"
           initial={{ opacity: 0 }}
