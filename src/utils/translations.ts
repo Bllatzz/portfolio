@@ -32,6 +32,14 @@ Formado em Ensino Médio Técnico em TI pelo Colégio Cotemig e graduando em Sis
       items: [
         {
           id: '1',
+          name: 'Setor 90',
+          year: '2026',
+          description: 'Ecommerce de camisas e acessórios de futebol',
+          image: '/images/setor90.png',
+          link: 'https://setor90store.com.br/',
+        },
+        {
+          id: '2',
           name: 'EzRide',
           year: '2025',
           description: 'Sistema de requisição de carona desenvolvido no primeiro semestre da faculdade, com funcionalidades de login, registro, requisição de carona, e muito mais.',
@@ -39,20 +47,12 @@ Formado em Ensino Médio Técnico em TI pelo Colégio Cotemig e graduando em Sis
           link: 'https://ezride-nine.vercel.app/',
         },
         {
-          id: '2',
+          id: '3',
           name: 'API de Países',
           year: '2023',
           description: 'API de países com informações de quantidade de habitantes e área, podendo favoritar os países e ver a lista de favoritos',
           image: '/images/country.png',
           link: 'https://api-country-theta.vercel.app/',
-        },
-        {
-          id: '3',
-          name: 'Guia de Valorant',
-          year: '2024',
-          description: 'Guia de personagens, armas e mapas do jogo Valorant',
-          image: '/images/valorant.png',
-          link: 'https://valorant-guide-react.vercel.app/',
         },
       ],
     },
