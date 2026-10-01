@@ -129,7 +129,7 @@ export function Hero() {
               animate={{ opacity: 1 }}
               transition={{ delay: 0.8 }}
             >
-              {['Laravel', 'PHP', 'Python', 'React', 'TypeScript', 'AWS', 'MySQL','GoLang','Vue.js','Redis','Azure'].map((tech, index) => (
+              {['Laravel', 'PHP', 'Python', 'JavaScript', 'TypeScript', 'React', 'React Native', 'Vue.js', 'Node.js', 'Tailwind CSS', 'MySQL', 'PostgreSQL', 'Supabase', 'Redis', 'Docker', 'AWS', 'Azure', 'GoLang'].map((tech, index) => (
                 <motion.span
                   key={tech}
                   className="px-4 py-2 text-sm font-mono text-gray-400 bg-dark-200/50 rounded-full border border-white/5 hover:border-accent-cyan/30 hover:text-accent-cyan transition-all duration-300"
